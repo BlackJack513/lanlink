@@ -1,0 +1,25 @@
+# ---- Rust build output ----
+/target/
+**/*.rs.bk
+*.pdb
+
+# ---- Local release artifacts (rebuilt from source, not committed) ----
+/dist/
+
+# ---- Local scratch / diagnostic files (_*.ps1, _*.log, _*.txt) ----
+/_*
+
+# ---- OS junk ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Local config that may hold machine-specific settings ----
+*.local
+.env

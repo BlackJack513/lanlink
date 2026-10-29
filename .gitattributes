@@ -1,0 +1,20 @@
+# Normalize line endings for source files
+* text=auto
+
+# Windows batch files must keep CRLF endings to run correctly
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Rust / config files use LF
+*.rs      text eol=lf
+*.toml    text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+Cargo.lock text eol=lf
+
+# Binary artifacts
+*.exe   binary
+*.zip   binary
+*.png   binary
+*.jpg   binary
+*.ico   binary
